@@ -1,0 +1,167 @@
+
+.container-1 * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container-1 h1{
+    border:none!important;
+}
+
+.container-1 {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background: #2c3e50; 
+    border-radius: 10px;
+}
+
+
+.category-1 {
+    background: linear-gradient(135deg, #8e44ad, #9b59b6);
+    padding: 0px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.category-1 h1 {
+    padding:2%;
+    font-size: 2rem;
+    color: #ffffff;
+    border:1px solid aquamarine!important;
+    border-radius:6px;
+}
+
+
+.description-1 {
+    background: #34495e; 
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.description-1 p {
+    font-size: 1.2rem;
+    color:white;
+}
+
+
+.bids-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+.bid-1 {
+    display: flex;
+    height:7.5vh;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background: #1abc9c; 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.bidder-name-1 {
+    font-size: 1.1rem;
+}
+
+.bidder-value-1 {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color:white;
+}
+.bidder-info-1{
+    color:white;
+    font-size:1.1rem;
+}
+
+.submit-bid{
+    margin-top:5%;
+    background-color:steelblue;
+    margin-left:20vw;
+    width:60vw;
+    padding-top:2.5%;
+    padding-bottom:2.5%;
+    border-radius:10px;
+}
+.submit-bid textarea{
+    width:50%;
+    margin-left:25%;
+}
+.submit-bid h1{
+    border:none;
+    font-size:1.5rem;
+    margin-bottom:1%;
+    width:100%;
+    color:aquamarine;
+    margin-left:0.3%;
+}
+
+.flex-container {
+    display: flex;
+    width: 90vw;
+    margin: 20px auto;
+    background-color: navy;
+    color: white;
+    padding:0.3%;
+    box-sizing: border-box;
+    justify-content: space-between;
+    background-color: skyblue;;
+}
+
+
+
+
+
+.layout-container {
+    display: flex;
+    margin: 20px auto;
+    background-color: steelblue;
+    color: white;
+    padding: 0.5%;
+    box-sizing: border-box;
+    justify-content: space-between;
+    max-width: 1000px;
+}
+
+.content-box {
+    padding: 0.1%;
+    text-align: center;
+    background-color: navy;
+    height:5vh;
+}
+
+.section-organisation {
+    flex: 1;
+    background-color: lightseagreen;
+    color: white;
+}
+
+.section-contact-info {
+    flex: 2;
+    background-color: navy;
+    color: steelblue;
+    font-size: 1.5rem;
+}
+
+.section-bid {
+    flex: 1;
+    background-color: lightseagreen; 
+    color: white;
+}
+.submit-bid button{
+    background-color:rgb(32, 32, 82);
+    margin-left:37.5%;
+    width:25%;
+    margin-top:2.5%;
+    border-radius:6px;
+    color:white;
+    border:none;
+    height:5vh;
+}
+body{
+    font-family:"arial";
+}

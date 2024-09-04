@@ -1,0 +1,41 @@
+.workorder{
+    display:flex;
+    width:90vw;
+}
+.workorder>.category{
+    flex:1;
+    display:flex;
+    justify-content:center;
+    background:linear-gradient(navy,rgb(42, 42, 112));
+    color:white;
+    font-size:smaller;
+}
+.workorder>.content{
+    background:aliceblue;
+    display:flex;
+    justify-content:center;
+    padding-left:2%;
+    flex:3;
+}
+.workorder>.lowbid{
+    background:lightblue;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    color:white;
+    flex:1;
+    gap:3%;
+}
+.workorder>.lowbid p{
+    text-align:center;
+    margin:0;
+}
+.workorder>.lowbid>div{
+    width:96%;
+    background:rgb(32, 32, 75);
+    height:45%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
